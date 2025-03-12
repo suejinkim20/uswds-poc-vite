@@ -1,6 +1,6 @@
 # Proof of Concept - USWDS - Trussworks
 
-This is a proof of concept Vite site to practice implementing the @trussworks/react-uswds.
+This is a proof of concept Vite site to practice implementing the [@trussworks/react-uswds](https://github.com/trussworks/react-uswds) package.
 
 This implements a Button, Button with custom styles, and Banner.
 
