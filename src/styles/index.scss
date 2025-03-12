@@ -11,3 +11,18 @@
     background-color: #1a4480;
   }
 }
+ 
+#main-content {
+  text-align: left;
+}
+
+.usa-prose>p{
+  max-width: 98ex
+}
+#root {
+  max-width: 100%;
+  padding: 0;
+}
+.grid-container {
+  max-width: 1500px;
+}

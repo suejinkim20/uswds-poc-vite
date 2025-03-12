@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Link } from 'react-router-dom';
 import { Button, Banner } from "@trussworks/react-uswds";
 
 function App() {
@@ -10,25 +11,17 @@ function App() {
   return (
     <>
     <Banner>
-      An official website of the United States government
+      An unofficial website of the United States government
     </Banner>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <nav>
+        <ul>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/use-bdc/explore-data">Use BDC / Explore Data</Link></li>
+        </ul>
+      </nav>
 
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <h1>Proof of Concept Site</h1>
+      <div className="card">
         <Button type="button">Click Me</Button>
         <Button className="custom-button">Styled Button</Button>
 

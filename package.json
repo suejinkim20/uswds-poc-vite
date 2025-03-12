@@ -13,6 +13,7 @@
     "@trussworks/react-uswds": "^9.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^7.3.0",
     "uswds": "^2.14.0"
   },
   "devDependencies": {
