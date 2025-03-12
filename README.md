@@ -1,12 +1,9 @@
-# React + Vite
+# Proof of Concept - USWDS - Trussworks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a proof of concept Vite site to practice implementing the [@trussworks/react-uswds](https://github.com/trussworks/react-uswds) package.
 
-Currently, two official plugins are available:
+This is a test place to try components and page layouts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here is an example of a sample page with a side nav.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![screencapture-localhost-5173-use-bdc-explore-data-2025-03-12-13_28_47](https://github.com/user-attachments/assets/8b7b60e0-8642-4eb1-b7a1-f625cb1d2465)
