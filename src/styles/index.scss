@@ -1,0 +1,13 @@
+@import "@trussworks/react-uswds/lib/uswds.css";
+@import "@trussworks/react-uswds/lib/index.css";
+
+.custom-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #1a4480;
+  }
+}
